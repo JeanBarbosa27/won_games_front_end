@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -36,16 +36,16 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  html, body, #__next {
-    height: 100%;
-  }
+  ${({ theme }) => css`
+    html {
+      font-size: 62.5%;
+    }
 
-  html {
-    font-size: 62.5%
-  }
+    body {
+      font-family: ${theme.font.family};
+      font-size: ${theme.font.sizes.medium};
+    }
+  `}
 
-  body {
-    font-family: 'Poppins', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
 `
 export default GlobalStyle
