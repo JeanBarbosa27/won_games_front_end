@@ -2302,16 +2302,16 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/react@^6.0.21":
-  version "6.0.22"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.0.22.tgz#64ff401194d7be62d238f766b47e85d7f170e4d1"
-  integrity sha512-sErMo8+KxuELTbx4VboAYEsgDEXXio1Tqmp1jfLoUhXIvQtcfbT9DrtwOoR4mixf7LwISuLikorTyOL+Z6Vg3g==
+"@storybook/react@^6.0.26":
+  version "6.0.26"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.0.26.tgz#5d4b8f2c6d8003912d371298a6e5a945e24680b4"
+  integrity sha512-X02VpIEhpVc4avYiff861c015++tvMVSXJSrDP5J1xTAglVEiRFcU0Kn5h96o9N8FTup2n2xyj6Y7e8oC9yLXQ==
   dependencies:
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
-    "@storybook/addons" "6.0.22"
-    "@storybook/core" "6.0.22"
-    "@storybook/node-logger" "6.0.22"
+    "@storybook/addons" "6.0.26"
+    "@storybook/core" "6.0.26"
+    "@storybook/node-logger" "6.0.26"
     "@storybook/semver" "^7.3.2"
     "@svgr/webpack" "^5.4.0"
     "@types/webpack-env" "^1.15.2"
@@ -2933,10 +2933,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.49":
-  version "16.9.49"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.49.tgz#09db021cf8089aba0cdb12a49f8021a69cce4872"
-  integrity sha512-DtLFjSj0OYAdVLBbyjhuV9CdGVHCkHn2R+xr3XkBvK2rS1Y1tkc14XSGjYgm5Fjjr90AxH9tiSzc1pCFMGO06g==
+"@types/react@*", "@types/react@^16.9.50":
+  version "16.9.50"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.50.tgz#cb5f2c22d42de33ca1f5efc6a0959feb784a3a2d"
+  integrity sha512-kPx5YsNnKDJejTk1P+lqThwxN2PczrocwsvqXnjvVvKpFescoY62ZiM3TV7dH1T8lFhlHZF+PE5xUyimUwqEGA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -6258,10 +6258,10 @@ eslint-plugin-react-hooks@^4.1.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.1.2.tgz#2eb53731d11c95826ef7a7272303eabb5c9a271e"
   integrity sha512-ykUeqkGyUGgwTtk78C0o8UG2fzwmgJ0qxBGPp2WqRKsTwcLuVf01kTDRAtOsd4u6whX2XOC8749n2vPydP82fg==
 
-eslint-plugin-react@^7.20.6:
-  version "7.21.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.21.2.tgz#3bd5d2c4c36d5a0428d0d6dda301ac9a84d681b2"
-  integrity sha512-j3XKvrK3rpBzveKFbgAeGsWb9uz6iUOrR0jixRfjwdFeGSRsXvVTFtHDQYCjsd1/6Z/xvb8Vy3LiI5Reo7fDrg==
+eslint-plugin-react@^7.21.3:
+  version "7.21.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.21.3.tgz#71655d2af5155b19285ec929dd2cdc67a4470b52"
+  integrity sha512-OI4GwTCqyIb4ipaOEGLWdaOHCXZZydStAsBEPB2e1ZfNM37bojpgO1BoOQbFb0eLVz3QLDx7b+6kYcrxCuJfhw==
   dependencies:
     array-includes "^3.1.1"
     array.prototype.flatmap "^1.2.3"
@@ -9737,10 +9737,10 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-pwa@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-3.1.4.tgz#1388eae82fb59d4756edeb93d1433790d420d953"
-  integrity sha512-Osk5jruwvrCeQh2Uk0I5vBOYzdaRgoh1r6STmaamk6xIa/2+PZFnrshEZPKQ8Qor2ALKTQoRFSt3kaqn6RHCZg==
+next-pwa@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-3.1.5.tgz#336de6998b7678614f0a129b18467785e4e57b40"
+  integrity sha512-FInX1Xj9BCYvzwrzH0JupoHCpXKN1lVFospp7uYcL1eO3gOICtrNruYq988JIPG9vaW5iQpmcUkwbjIittyIlQ==
   dependencies:
     clean-webpack-plugin "^3.0.0"
     globby "^11.0.1"
