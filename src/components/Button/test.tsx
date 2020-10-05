@@ -4,10 +4,29 @@ import { renderWithTheme } from 'utils/tests/helpers'
 import Button from '.'
 
 describe('<Button />', () => {
-  it('should be able to render Button componente', () => {
-    renderWithTheme(<Button />)
-    const heading = screen.getByRole('heading', { name: /Button/i })
+  it('should render medium size by default', () => {
+    renderWithTheme(<Button>Buy now</Button>)
+    expect(screen.getByRole('button', { name: /buy now/i })).toHaveStyle({
+      height: '4rem',
+      padding: '0.8rem 3.2rem',
+      'font-size': '1.4rem'
+    })
+  })
 
-    expect(heading).toBeInTheDocument()
+  it('should render the small size', () => {
+    renderWithTheme(<Button size="small">Buy now</Button>)
+    expect(screen.getByRole('button', { name: /buy now/i })).toHaveStyle({
+      height: '3rem',
+      'font-size': '1.2rem'
+    })
+  })
+
+  it('should render the large size', () => {
+    renderWithTheme(<Button size="large">Buy now</Button>)
+    expect(screen.getByRole('button', { name: /buy now/i })).toHaveStyle({
+      height: '5rem',
+      padding: '0.8rem 4.8rem',
+      'font-size': '1.6rem'
+    })
   })
 })
