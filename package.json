@@ -9,7 +9,6 @@
     "build:dev": "NODE_ENV=development next build",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "start": "next start",
-    "upgrade-deps": "upgrade-interactive",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "jest --watch",
