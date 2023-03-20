@@ -1,0 +1,9 @@
+# dependabot update version checker sample
+version: 2
+updates:
+  - package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: null
+    time: "08:00"
+ open-pull-requests-limit: 0
